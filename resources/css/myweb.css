@@ -1,0 +1,706 @@
+        /*----------- * -----------*/
+*{
+    margin: 0px;
+    background-color: black;
+}
+
+        /*----------- profile -----------*/
+
+.profile{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    margin: 0px;
+}
+
+        /*----------- myself -----------*/
+
+.myself{
+    width: 96%;
+    height: 350px;
+    background-color: aqua;
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.details{
+    width: 70%;
+    height: 300px;
+    background: orange;
+    margin-right: 25px;
+}
+
+.mypic{
+    width: 300px;
+    height: 300px;
+    background: orange;
+    margin-left: 25px;
+}
+
+#pic{
+    width: 300px;
+    height: 300px;
+}
+
+        /*-----------  skill  -----------*/
+
+.skill {
+    width: 30%;
+    height: 20%;
+    background-color: brown;
+    margin-left: 10%;
+    margin-top: 70px;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.5s ease; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ 
+
+}
+
+.message{
+    width: 0;
+    height: 0;
+    background: transparent;
+    color: white;
+    overflow: hidden;
+}
+#skill_h{
+    background: transparent;
+    margin-top: 2px;
+}
+
+.skill:hover .message{
+    width: 50px;
+    height: 160px;
+    background: transparent;
+    margin: 10px;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    background-color: brown;
+    transition: all 0.5s ease;
+}
+
+.icon {
+    width: 30%;
+    height: 135px;
+    background-color: transparent;
+    margin-left: 10%;
+    margin-top: 5px;
+    transition: all 0.5s ease;
+    border-radius: 20px;
+}
+
+.iconbox {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    margin-top: 5px;
+    margin-left: 5px;
+    transition: all 0.5s ease;
+    border-radius: 20px;
+}
+
+.skill:hover {
+    width: 40%;
+    height: 30%;
+    border-radius: 20px;
+    border-top-left-radius: 50px;
+}
+
+.skill:hover .box {
+    width: 90%;
+    height: 80%;
+    background-color: rgb(0, 0, 0);
+    margin: 5px 5px 5px 10px;
+    border-radius: 20px;
+}
+
+.skill:hover .icon {
+    width: 55px;
+    height: 50px;
+    background-color: brown;
+    border-radius: 0px 0px 20px 0px;
+    margin-left: -5px;
+    margin-top: -20px;
+}
+
+.skill:hover .iconbox {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 20px 10px 20px 10px;
+    margin-top: 20px;
+    margin-left: 5px;
+    transition: all 0.5s ease;
+}
+
+.skill:hover .icon::before{
+    content: '';
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 50px;
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border-top-left-radius: 10px;
+    box-shadow: -3px -3px 0px 3px brown;
+    transition: all 0ms ease;
+
+}
+.skill:hover .icon::after{
+    content: '';
+    position: absolute;
+    margin-left: 55px;
+    margin-top: -40px;
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border-top-left-radius: 10px;
+    box-shadow: -3px -3px 0px 3px brown;
+    transition: all 0ms ease;
+
+}
+
+
+
+
+/*-----------  achivement  -----------*/
+
+
+.achivement {
+    width: 30%;
+    height: 20%;
+    background-color: brown;
+    margin-left: 60%;
+    margin-right: 10%;
+    margin-top: 70px;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.5s ease; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.message{
+    width: 0;
+    height: 0;
+    background: transparent;
+    color: white;
+    overflow: hidden;
+}
+#achivement_h{
+    background: transparent;
+    margin-top: -2px;
+}
+
+.achivement:hover .message{
+    width: 50px;
+    height: 170px;
+    background: transparent;
+    margin: 10px;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    background-color: brown;
+    transition: all 0.5s ease;
+}
+
+.icon {
+    width: 30%;
+    height: 135px;
+    background-color: transparent;
+    margin-left: 10%;
+    margin-top: 5px;
+    transition: all 0.5s ease;
+    border-radius: 20px;
+}
+
+.iconbox {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    margin-top: 5px;
+    margin-left: 5px;
+    transition: all 0.5s ease;
+    border-radius: 20px;
+}
+
+.achivement:hover {
+    width: 40%;
+    height: 30%;
+    border-radius: 20px;
+    border-top-left-radius: 50px;
+}
+
+.achivement:hover .box {
+    width: 90%;
+    height: 80%;
+    background-color: rgb(0, 0, 0);
+    margin: 5px 5px 5px 10px;
+    border-radius: 20px;
+}
+
+.achivement:hover .icon {
+    width: 55px;
+    height: 50px;
+    background-color: brown;
+    border-radius: 0px 0px 20px 0px;
+    margin-left: -5px;
+    margin-top: -20px;
+}
+
+.achivement:hover .iconbox {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 20px 10px 20px 10px;
+    margin-top: 20px;
+    margin-left: 5px;
+    transition: all 0.5s ease;
+}
+
+.achivement:hover .icon::before{
+    content: '';
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 50px;
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border-top-left-radius: 10px;
+    box-shadow: -3px -3px 0px 3px brown;
+    transition: all 0ms ease;
+
+}
+.achivement:hover .icon::after{
+    content: '';
+    position: absolute;
+    margin-left: 55px;
+    margin-top: -40px;
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border-top-left-radius: 10px;
+    box-shadow: -3px -3px 0px 3px brown;
+    transition: all 0ms ease;
+
+}
+
+/*-----------  work  -----------*/
+
+
+.work {
+    width: 30%;
+    height: 20%;
+    background-color: brown;
+    margin-left: 10%;
+    margin-top: 70px;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.5s ease; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.message{
+    width: 0;
+    height: 0;
+    background: transparent;
+    color: white;
+    overflow: hidden;
+}
+#work_h{
+    background: transparent;
+}
+
+.work:hover .message{
+    width: 50px;
+    height: 150px;
+    background: transparent;
+    margin: 10px;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    background-color: brown;
+    transition: all 0.5s ease;
+}
+
+.icon {
+    width: 30%;
+    height: 135px;
+    background-color: transparent;
+    margin-left: 10%;
+    margin-top: 5px;
+    transition: all 0.5s ease;
+    border-radius: 20px;
+}
+
+.iconbox {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    margin-top: 5px;
+    margin-left: 5px;
+    transition: all 0.5s ease;
+    border-radius: 20px;
+}
+
+.work:hover {
+    width: 40%;
+    height: 30%;
+    border-radius: 20px;
+    border-top-left-radius: 50px;
+}
+
+.work:hover .box {
+    width: 90%;
+    height: 80%;
+    background-color: rgb(0, 0, 0);
+    margin: 5px 5px 5px 10px;
+    border-radius: 20px;
+}
+
+.work:hover .icon {
+    width: 55px;
+    height: 50px;
+    background-color: brown;
+    border-radius: 0px 0px 20px 0px;
+    margin-left: -5px;
+    margin-top: -20px;
+}
+
+.work:hover .iconbox {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 20px 10px 20px 10px;
+    margin-top: 20px;
+    margin-left: 5px;
+    transition: all 0.5s ease;
+}
+
+.work:hover .icon::before{
+    content: '';
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 50px;
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border-top-left-radius: 10px;
+    box-shadow: -3px -3px 0px 3px brown;
+    transition: all 0ms ease;
+
+}
+.work:hover .icon::after{
+    content: '';
+    position: absolute;
+    margin-left: 55px;
+    margin-top: -40px;
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border-top-left-radius: 10px;
+    box-shadow: -3px -3px 0px 3px brown;
+    transition: all 0ms ease;
+
+}
+/*-----------  qualification   -----------*/
+
+
+.qualification {
+    width: 30%;
+    height: 20%;
+    background-color: brown;
+    margin-top: 70px;
+    margin-left: 60%;
+    margin-right: 10%;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.5s ease; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.message{
+    width: 0;
+    height: 0;
+    background: transparent;
+    color: white;
+    overflow: hidden;
+}
+#qualification_h{
+    background: transparent;
+    margin-top: 3px;
+}
+
+.qualification:hover .message{
+    width: 50px;
+    height: 180px;
+    background: transparent;
+    margin: 10px;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    background-color: brown;
+    transition: all 0.5s ease;
+}
+
+.icon {
+    width: 30%;
+    height: 135px;
+    background-color: transparent;
+    margin-left: 10%;
+    margin-top: 5px;
+    transition: all 0.5s ease;
+    border-radius: 20px;
+}
+
+.iconbox {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    margin-top: 5px;
+    margin-left: 5px;
+    transition: all 0.5s ease;
+    border-radius: 20px;
+}
+
+.qualification:hover {
+    width: 40%;
+    height: 30%;
+    border-radius: 20px;
+    border-top-left-radius: 50px;
+}
+
+.qualification:hover .box {
+    width: 90%;
+    height: 80%;
+    background-color: rgb(0, 0, 0);
+    margin: 5px 5px 5px 10px;
+    border-radius: 20px;
+}
+
+.qualification:hover .icon {
+    width: 55px;
+    height: 50px;
+    background-color: brown;
+    border-radius: 0px 0px 20px 0px;
+    margin-left: -5px;
+    margin-top: -20px;
+}
+
+.qualification:hover .iconbox {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 20px 10px 20px 10px;
+    margin-top: 20px;
+    margin-left: 5px;
+    transition: all 0.5s ease;
+}
+
+.qualification:hover .icon::before{
+    content: '';
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 50px;
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border-top-left-radius: 10px;
+    box-shadow: -3px -3px 0px 3px brown;
+    transition: all 0ms ease;
+
+}
+.qualification:hover .icon::after{
+    content: '';
+    position: absolute;
+    margin-left: 55px;
+    margin-top: -40px;
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border-top-left-radius: 10px;
+    box-shadow: -3px -3px 0px 3px brown;
+    transition: all 0ms ease;
+
+}
+/*-----------  contact -----------*/
+
+
+.contact {
+    width: 30%;
+    height: 20%;
+    background-color: brown;
+    margin-left: 10%;
+    margin-top: 70px;
+    border-radius: 20px;
+    margin-bottom: 70px;
+    overflow: hidden;
+    transition: all 0.5s ease; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.message{
+    width: 0;
+    height: 0;
+    background: transparent;
+    color: white;
+    overflow: hidden;
+}
+#contact_h{
+    background: transparent;
+}
+
+.contact:hover .message{
+    width: 50px;
+    height: 150px;
+    background: transparent;
+    margin: 10px;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    background-color: brown;
+    transition: all 0.5s ease;
+}
+
+.icon {
+    width: 30%;
+    height: 135px;
+    background-color: transparent;
+    margin-left: 10%;
+    margin-top: 5px;
+    transition: all 0.5s ease;
+    border-radius: 20px;
+}
+
+.iconbox {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    margin-top: 5px;
+    margin-left: 5px;
+    transition: all 0.5s ease;
+    border-radius: 20px;
+}
+
+.contact:hover {
+    width: 40%;
+    height: 30%;
+    border-radius: 20px;
+    border-top-left-radius: 50px;
+}
+
+.contact:hover .box {
+    width: 90%;
+    height: 80%;
+    background-color: rgb(0, 0, 0);
+    margin: 5px 5px 5px 10px;
+    border-radius: 20px;
+}
+
+.contact:hover .icon {
+    width: 55px;
+    height: 50px;
+    background-color: brown;
+    border-radius: 0px 0px 20px 0px;
+    margin-left: -5px;
+    margin-top: -20px;
+}
+
+.contact:hover .iconbox {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 20px 10px 20px 10px;
+    margin-top: 20px;
+    margin-left: 5px;
+    transition: all 0.5s ease;
+}
+
+.contact:hover .icon::before{
+    content: '';
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 50px;
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border-top-left-radius: 10px;
+    box-shadow: -3px -3px 0px 3px brown;
+    transition: all 0ms ease;
+
+}
+.contact:hover .icon::after{
+    content: '';
+    position: absolute;
+    margin-left: 55px;
+    margin-top: -40px;
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border-top-left-radius: 10px;
+    box-shadow: -3px -3px 0px 3px brown;
+    transition: all 0ms ease;
+
+}
+
+
+
+
+        /*-----------  footer -----------*/
+
+.footer{
+    width: 100%;
+    height: 10%;
+    background-color: brown;
+}
+
+#footer_h1{
+    color: aliceblue;
+    background: transparent;
+    text-align: center;
+}
+
+#footer_h3{
+    color: aliceblue;
+    background: transparent;
+    text-align: center;
+}
